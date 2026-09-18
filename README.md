@@ -1,4 +1,4 @@
-# 📣 Media Pulse — Performance Analytics
+# Media Pulse — Performance Analytics
 
 **Caso de Data Analytics sobre inversión publicitaria, performance y crecimiento.**
 
@@ -6,7 +6,7 @@ Python · SQL · Power BI · Marketing Analytics · Business Intelligence
 
 ---
 
-## 🧠 La idea
+## La idea
 
 **Media Pulse** es un caso de estudio ficticio inspirado en problemas de una agencia de medios moderna: administrar inversión, comparar canales, entender mercados y convertir datos de campañas en decisiones.
 
@@ -14,9 +14,9 @@ Python · SQL · Power BI · Marketing Analytics · Business Intelligence
 
 El proyecto analiza eficiencia, escala, contexto y oportunidades de optimización.
 
-> ⚠️ Todos los datos son sintéticos y fueron generados exclusivamente para portfolio.
+>  Todos los datos son sintéticos y fueron generados exclusivamente para portfolio.
 
-## 🎯 Problema de negocio
+## Problema de negocio
 
 - ¿Qué canales generan mejor retorno?
 - ¿Dónde estamos invirtiendo mucho sin obtener suficiente valor?
@@ -25,7 +25,7 @@ El proyecto analiza eficiencia, escala, contexto y oportunidades de optimizació
 - ¿Qué campañas parecen eficientes pero tienen poco volumen?
 - ¿Dónde existe espacio para investigar una posible reasignación de presupuesto?
 
-## 📊 Dataset
+## Dataset
 
 **9.000 registros sintéticos de performance durante 2025.**
 
@@ -49,7 +49,7 @@ El proyecto analiza eficiencia, escala, contexto y oportunidades de optimizació
 | `roas` | Return on ad spend |
 | `cpa` | Cost per acquisition |
 
-## 🔎 Preguntas analíticas
+## Preguntas analíticas
 
 ### 01 — Eficiencia
 ¿Qué canales y mercados presentan mejores niveles de ROAS y CPA?
@@ -66,7 +66,7 @@ El proyecto analiza eficiencia, escala, contexto y oportunidades de optimizació
 ### 05 — Presupuesto
 ¿Qué segmentos deberían investigarse antes de mover inversión?
 
-## 📈 Visualizaciones
+## Visualizaciones
 
 ![ROAS mensual](images/roas_monthly.png)
 
@@ -76,27 +76,27 @@ El proyecto analiza eficiencia, escala, contexto y oportunidades de optimizació
 
 ![ROAS mercado canal](images/roas_market_channel.png)
 
-## 💡 Eficiencia ≠ escala
+## Eficiencia ≠ escala
 
 Un ROAS alto no implica automáticamente que convenga asignar más presupuesto. Un segmento puede ser eficiente con poco volumen y no mantener esa eficiencia al escalar.
 
 Por eso el análisis separa: **Eficiencia → Volumen → Contexto → Oportunidad de prueba**.
 
-## 🧮 KPI principales
+## KPI principales
 
 ROAS · CPA · CTR · CVR · CPC · Revenue · Spend · Conversions
 
-## 🐍 Python
+## Python
 
 Limpieza, KPI, análisis temporal, segmentación, comparación de canales y mercados, outliers y eficiencia vs volumen.
 
 Notebook: `notebooks/01_media_pulse_analysis.ipynb`
 
-## 🗄️ SQL
+## SQL
 
 `sql/analysis.sql` incluye ROAS, CPA, evolución mensual, ranking, objetivos, dispositivos y distribución de presupuesto.
 
-## 📊 Dashboard
+## Dashboard
 
 **Executive Performance:** Spend, Revenue, ROAS, CPA, Conversions y tendencia.
 
@@ -106,15 +106,15 @@ Notebook: `notebooks/01_media_pulse_analysis.ipynb`
 
 **Budget Opportunities:** segmentos de interés, outliers y oportunidades para tests.
 
-## ⚠️ Attribution ≠ causalidad
+## Attribution ≠ causalidad
 
 Una conversión atribuida a una campaña no significa que la campaña haya causado por sí sola toda la conversión. El enfoque es: **performance reportada → hipótesis → validación**.
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 Python · Pandas · NumPy · Matplotlib · SQL · Power BI · Git/GitHub
 
-## 💼 Descripción para CV
+## Descripción para CV
 
 **Media Pulse — Media Performance Analytics | Python, SQL, Power BI**
 
@@ -122,7 +122,7 @@ Desarrollé un caso de Marketing Analytics utilizando 9.000 registros sintético
 
 ---
 
-## 🎯 Reflexión final
+## Reflexión final
 
 Los dashboards pueden decirnos **qué pasó**. El trabajo de Analytics empieza cuando preguntamos: **¿por qué pasó, qué deberíamos investigar y cómo podríamos medir si una decisión realmente funcionó?**
 
